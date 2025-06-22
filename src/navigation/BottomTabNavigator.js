@@ -39,7 +39,7 @@ const BottomTabNavigator = () => {
     </TouchableOpacity>
   );
 
-  const headerLeft = () => (
+  const HeaderLeft = () => (
     <TouchableOpacity
       onPress={() => navigation.navigate('LoginScreen')}
       style={styles.headerLeft}
@@ -57,7 +57,7 @@ const BottomTabNavigator = () => {
           tabBarLabelStyle: styles.tabBarLabel,
 
           headerRight: () => <HeaderRight />,
-          headerLeft: () => <headerLeft />,
+          headerLeft: () => <HeaderLeft />,
           // setting the header title to empty string, so it will not show the page name as title in the header.
           headerTitle: '',
           headerStyle: styles.header,

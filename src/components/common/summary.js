@@ -37,7 +37,7 @@ const Summary = ({ auditObject, onClose, showSuccessMsg }) => {
         <View style={styles.modalContent}>
           {/* optional success message after submission */}
           {showSuccessMsg && (
-            <Text style={styles.successMsg}>form submitted successfully</Text>
+            <Text style={styles.successMsg}>Form submitted successfully</Text>
           )}
 
           {/* heading */}
@@ -45,7 +45,7 @@ const Summary = ({ auditObject, onClose, showSuccessMsg }) => {
 
           {/* display username */}
           <View style={styles.infoBlock}>
-            <Text style={styles.infoLabel}>name:</Text>
+            <Text style={styles.infoLabel}>Name:</Text>
             <Text style={styles.infoText}>{auditObject.username}</Text>
           </View>
 
