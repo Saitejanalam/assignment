@@ -75,3 +75,10 @@
 ## Add Generated Icons 
     
     - Add Generated icons in ```app/src/main/res/*```
+
+## Clear Cache
+
+    - ```cd android                                                                          
+      ./gradlew clean
+      cd ..
+      npx react-native run-android```   
